@@ -146,5 +146,10 @@ body{
 .container input:focus{
 	outline-width: 0;
 }
+a:link, a:visited {
+  color: #ABD17D;
+  text-decoration: none;
+  cursor: auto;
+}
 
 
