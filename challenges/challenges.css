@@ -1,0 +1,154 @@
+body{
+	background:#33373d;
+	width:100%;
+    height:100%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    font-family: 'Iceland', cursive;
+    color:#ABD17D;
+}
+.index-div-bg{
+	background:url('images/bg.png');	
+}
+
+.logo {
+        filter: hue-rotate(100deg);
+}
+
+#indxContent{
+	width:80%;
+	height:80%;
+	border:#ABD17D solid 2px;
+	margin:5% auto;	
+	padding-bottom:28%;
+	background: rgba(26, 38, 0, .85);
+	box-shadow: 0 20px 40px 20px rgba(0, 0, 0, 0.2), 0 20px 40px 0px rgba(0, 0, 0, 0.19);
+}
+
+.index-heading-1, .index-heading-2{
+	width:100%;
+	text-align:center;
+}
+
+.index-heading-1{
+	font-size:xx-large;
+}
+
+
+.index-heading-3{
+	width:60%;
+	height:5%;
+	margin:0px auto;
+	background:url('images/bg.png');
+	text-align:center;
+	border-radius:2em;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.index-heading-3 h1{
+	padding-top:25px;
+	font-size:50px;
+
+}
+
+.index-option{
+	width:90%;
+	height:10%;
+	background:#CED187;
+	margin:0px auto;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+
+.index-option-div{
+	width:33.33%;
+	height:10%;
+	float:left;
+	text-align:center;
+	margin-bottom:inherit;
+	margin-top: inherit;
+}
+
+.index-option-div-inner{
+	width:50%;
+	height:10%;
+	margin:0px auto;
+	border:1px solid #ABD17D;
+	padding: 2%;
+	border-radius: 1em;
+	font-size:larger;
+	cursor:pointer;
+}
+
+.index-option-div-inner:hover{
+	background:#ABD17D;
+	color:black;
+}
+
+#index-option-div-inner-remove{
+	background:inherit;	
+	cursor:inherit;
+}
+
+.timer_words{
+	font-size:30px;
+	font-family: 'Iceland', cursive;
+}
+
+#index-option-div-inner-remove{
+	border:inherit;
+}
+
+#modal-container{
+	width:50%;
+	border:solid 2px #ABD17D;
+	border-radius:1em;
+	background:#1a260d;
+}
+
+.clearfix{
+	width:100%;
+	height:auto;
+}
+
+#modal-container a{
+	font-size: xx-large;
+	float:right;
+	margin:15px;
+	color:#ABD17D;
+}
+
+#modal-container a:hover{
+	color:orange;
+}
+#modal-container a:focus{
+	outline: none;	
+}
+
+.container{
+	width:80%;
+	margin:0px auto;
+	border:solid 1px #ABD17D;
+}
+
+.container h1{
+	text-align:center;
+}
+
+.container input{
+	background:inherit;
+	color:#ABD17D;
+	border:1px solid #ABD17D;
+	font-family: 'Iceland', cursive;
+	font-size:large;
+}
+
+.container input:focus{
+	outline-width: 0;
+}
+
+a:link, a:visited {
+  color: #ABD17D;
+  text-decoration: none;
+  cursor: inherit;
+}
