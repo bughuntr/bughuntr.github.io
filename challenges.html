@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Iceland|Orbitron" rel="stylesheet">
+		<link rel="stylesheet" href="css/login.css" type="text/css"/>
+		<link rel="stylesheet" href="css/index.css" type="text/css"/>
+		<link rel="stylesheet" href="css/map.css" type="text/css"/>
+		<style>
+			.indxContent{
+				width:60%;
+				height:60%;
+				background:orange;
+				float:left;
+			}
+		</style>
+</head>
+<script src="js/dialogindex.js"></script>
+<body id="main" style="background:url('images/bg.png');">
+	<!-- Main Content -->
+	<div id="indxContent">
+		<div class="index-heading-1">
+			<h1>Challenges</h1>
+		</div>
+		<div class="index-heading-2">
+			<h2>OWASP Top Ten Challenges</h2>
+		</div>
+		<div class="index-option">
+			<div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge1.html">
+					<span>Injection</span>
+				</div>
+			</div>
+			<div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge2.html"> <!-- document.getElementById('id01').style.display='block' -->
+					<span>Broken Authentication</span>
+				</div>
+			</div>
+			<div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge3.html">
+					<span>Sensitive Data Exposure</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge4.html">
+					<span>XML External Entities</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge5.html">
+					<span>Broken Access Control</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge6.html">
+					<span>Security Misconfiguration</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge7.html">
+					<span>Cross-Site Scripting</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge8.html">
+					<span>Insecure Deserialization</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge9.html">
+					<span>Using Components with Known Vulnerabilities</span>
+				</div>
+			</div>
+      <div class="index-option-div">
+				<div class="index-option-div-inner" onclick="challenges/challenge10.html">
+					<span>Insufficient Logging&Monitoring</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/hometimer.js"></script>
+</body>
+</html>
