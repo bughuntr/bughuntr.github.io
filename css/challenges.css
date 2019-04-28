@@ -53,10 +53,11 @@ body{
 
 .index-option{
 	width:90%;
-	height:80%;
+	height:10%;
 	background:#CED187;
 	margin:0px auto;
 	margin-top:2%;
+	margin-bottom: 2%;
 }
 
 .index-option-div{
@@ -144,4 +145,8 @@ body{
 	outline-width: 0;
 }
 
-
+a:link, a:visited {
+  color: #ABD17D;
+  text-decoration: none;
+  cursor: inherit;
+}
