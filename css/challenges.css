@@ -20,9 +20,9 @@ body{
 	height:80%;
 	border:#ABD17D solid 2px;
 	margin:5% auto;	
-	padding-bottom:5%;
+	padding-bottom:25%;
 	background: rgba(26, 38, 0, .85);
-	box-shadow: 0 80px 80px 80px rgba(0, 0, 0, 0.2), 0 80px 80px 80px rgba(0, 0, 0, 0.19);
+	box-shadow: 0 20px 40px 20px rgba(0, 0, 0, 0.2), 0 20px 40px 0px rgba(0, 0, 0, 0.19);
 }
 
 .index-heading-1, .index-heading-2{
@@ -65,6 +65,8 @@ body{
 	height:10%;
 	float:left;
 	text-align:center;
+	margin-bottom:inherit;
+	margin-top: inherit;
 }
 
 .index-option-div-inner{
